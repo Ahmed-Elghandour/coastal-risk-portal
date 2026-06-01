@@ -1,0 +1,17 @@
+Description of data from EU_TWL_storms.csv
+Data refferent to each coastal target point (CTP) across the European coastline regarding the characterization of total water level (TWL) storms
+
+Lon: longitude of CTP
+Lat: latitude of CTP
+
+"RP50: TWL value associated to a 50-year return period event, in meters"
+"RP100: TWL value associated to a 100-year return period event, in meters"
+
+"Dur_hist: mean storm duration at each CTP, based on all identified individual storm events, in hours"
+"Dur_RP50: 50-year return period storm duration for each CTP, in hours"
+"Dur_RP100: 100-year return period storm duration for each CTP, in hours"
+
+ST_A_perc: percentage of storms within each CTP classified as storm type (ST) A
+ST_B_perc: percentage of storms within each CTP classified as storm type (ST) B
+ST_C_perc: percentage of storms within each CTP classified as storm type (ST) C
+ST_D_perc: percentage of storms within each CTP classified as storm type (ST) D
