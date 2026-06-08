@@ -23,7 +23,7 @@ STATIONS = {
 # ─── Load TWL flood data ───────────────────────────────────────────────────────
 @st.cache_data
 def load_twl_data():
-    df = pd.read_csv(r"C:\Coastal_portal\data\EU_TWL_storms.csv")
+    df = pd.read_csv("data/EU_TWL_storms.csv")
     high   = df[df['RP100'] > 3]
     medium = df[(df['RP100'] >= 1.5) & (df['RP100'] <= 3)].iloc[::5]
     low    = df[df['RP100'] < 1.5].iloc[::10]
